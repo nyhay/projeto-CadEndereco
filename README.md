@@ -11,5 +11,6 @@
  ##  descrição
  como eu disse antes, a pagina e como se fosse uma tela de cadastro de confirmação de endereço.
  ## funcionalidade
-o codigo serve especificamente para marcar seu endereço, por exemplo:rua bairro  numero e etc.
+o codigo serve especificamente para marcar seu endereço para os correios, por exemplo:rua bairro  numero e etc.
  ![gif](gif/20230920-1533-46.7249721.gif)
+## tecnologias utilizadas
