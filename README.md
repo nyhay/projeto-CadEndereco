@@ -14,6 +14,6 @@
 o codigo serve especificamente para marcar seu endereço para os correios, por exemplo:rua bairro  numero e etc.
  ![gif](gif/20230920-1533-46.7249721.gif)
 ## tecnologias utilizadas
-![img](img/6f5c1808-2ac6-411b-8f21-4fe0762e66da-removebg-preview.png)
-![img2](img2/d7813419-4c70-44df-a4d6-b651bbaded86-removebg-preview.png)
+<img src="img/6f5c808-2ac6-411b-8f21-4fe0762e66da-removebg-preview.png" width="90px">
+<img src="img2/d7813419-4c70-44df-a4d6-b651bbaded86-removebg-preview.png" width="90px">
 ![img3](img3/f5cac8bc-832c-438d-b879-7bfbfb4dc0b7-removebg-preview.png)
