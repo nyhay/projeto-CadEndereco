@@ -10,3 +10,14 @@ const limparFormulario = (endereco) =>{
 }
 //verifica se CEP é valido
 const eNumero = (numero) => /^[0,9]+$/.test(numero);
+const cepValido = (cep) => cep.length == 8 && eNumero(cep);
+
+//preenche campos co formulário
+
+const preencherFormulario = (endereco) =>{
+    document.getElementById('rua').value = endereco.logradouro;
+    document.getElementById('bairro').value = endereco.bairro;
+    document.getElementById('cidade').value = endereco.localidade;
+    document.getElementById('estado').value = endereco.uf;
+
+}
