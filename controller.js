@@ -9,7 +9,7 @@ const limparFormulario = (endereco) =>{
 
 }
 //verifica se CEP é valido
-const eNumero = (numero) => /^[0,9]+$/.test(numero);
+const eNumero = (numero) => /^[0-9]+$/.test(numero);
 const cepValido = (cep) => cep.length == 8 && eNumero(cep);
 
 //preenche campos co formulário
@@ -28,6 +28,7 @@ funçao para consumo de API
 const  pesquisarCep = async() => {
     limparFormulario();
     const url = `http://viacep.com.br/ws/${cep.value}/json/`;
+
     if(cepValido(cep.value)){
       const dados = await fetch(url);
       const addres = await dados.json();
